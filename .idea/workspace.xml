@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a82879c-5780-46ac-9845-72acd901dbb5" name="Changes" comment="Practiced 5 problems on Queue">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/linkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Map/Hashmap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Map/hashmapOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Map/maxDistanceBetweenSameElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/LargestArraywith0sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/commonElementwithset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/removeduplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/setoperations.java" afterDir="false" />
+    <list default="true" id="7a82879c-5780-46ac-9845-72acd901dbb5" name="Changes" comment="Practiced problems on Sets and Map">
+      <change afterPath="$PROJECT_DIR$/LinkedList/LinkedListOf012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/UNSintersectionOfTwoSortedLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/UNSswapElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/UNSunionOfTwoLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/uniqueSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Set/uniqueSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +52,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.maxDistanceBetweenSameElement">
-    <configuration name="LargestArraywith0sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Set.LargestArraywith0sum" />
+  <component name="RunManager" selected="Application.UNSintersectionOfTwoSortedLinkedList">
+    <configuration name="UNSintersectionOfTwoSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.UNSintersectionOfTwoSortedLinkedList" />
       <module name="Java_Collection_Framework_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="commonElementwithset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Set.commonElementwithset" />
+    <configuration name="UNSswapElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.UNSswapElements" />
       <module name="Java_Collection_Framework_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maxDistanceBetweenSameElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.maxDistanceBetweenSameElement" />
+    <configuration name="unionOfTwoLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.unionOfTwoLinkedList" />
       <module name="Java_Collection_Framework_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="removeduplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Set.removeduplicates" />
+    <configuration name="uniqueSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Set.uniqueSubstring" />
       <module name="Java_Collection_Framework_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="setoperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Set.setoperations" />
+    <configuration name="uniqueSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Map.uniqueSubstrings" />
       <module name="Java_Collection_Framework_2" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.maxDistanceBetweenSameElement" />
-        <item itemvalue="Application.removeduplicates" />
-        <item itemvalue="Application.LargestArraywith0sum" />
-        <item itemvalue="Application.commonElementwithset" />
-        <item itemvalue="Application.setoperations" />
+        <item itemvalue="Application.UNSintersectionOfTwoSortedLinkedList" />
+        <item itemvalue="Application.UNSunionOfTwoLinkedList" />
+        <item itemvalue="Application.uniqueSubstring" />
+        <item itemvalue="Application.uniqueSubstrings" />
+        <item itemvalue="Application.UNSswapElements" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +140,9 @@
       <workItem from="1688651590833" duration="2050000" />
       <workItem from="1688732621396" duration="5600000" />
       <workItem from="1688788692700" duration="736000" />
-      <workItem from="1688797383819" duration="15425000" />
+      <workItem from="1688797383819" duration="16239000" />
+      <workItem from="1688835217232" duration="590000" />
+      <workItem from="1688871731417" duration="19180000" />
     </task>
     <task id="LOCAL-00001" summary="Practiced 5 problems on Queue">
       <created>1688742813713</created>
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688742813713</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Practiced problems on Sets and Map">
+      <created>1688819162297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688819162297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +166,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Practiced 5 problems on Queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practiced 5 problems on Queue" />
+    <MESSAGE value="Practiced problems on Sets and Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practiced problems on Sets and Map" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Map/maxDistanceBetweenSameElement.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
