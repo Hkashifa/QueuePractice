@@ -8,33 +8,34 @@ public class UNSswapElements {
     public static void main(String[] args)
     {
         LinkedList<Integer> unswappedList = new LinkedList<>(Arrays.asList(1,2,2,4,5,6,7,8));
-       int temp =0;
-       int x = 0;
-       int y=0;
-       int k = 0;
-       int m =0;
-        for(int i=0;i<unswappedList.size();i++)
+
+        int temp;
+        int temp2;
+        int k;
+        for(int i=1;i<unswappedList.size();i++)
         {
-            System.out.println("we be interatin");
-            if(i>0) {
-                k=i-1;
-                System.out.println("k"+k);
+            System.out.println("_________________");
 
-                x = unswappedList.get(i);
-                System.out.println("x" + x);
-                y = unswappedList.get(k);
-                System.out.println("y" + y);
+            System.out.println("Save value of current node in temp");
+            temp = unswappedList.get(i);
+            System.out.println("temp:" +temp +" i:"+i);
 
-                unswappedList.set(k,x);
-                System.out.println("unswappedList.get(k)" +unswappedList.get(k));//stays 1 even if the value of i keeps changing
+            System.out.println("Get value of prev node and save it to current");
+            k= i-1;
+            temp2=unswappedList.get(k);
+            System.out.println("temp2:" +temp2 + " k:" + k);
+            unswappedList.set(i,temp2);
 
-                unswappedList.set(i,y);
-                System.out.println("unswappedList.get(i)"+unswappedList.get(i));
-
-            }
+            System.out.println("Set value of prev node to current");
+            System.out.println("temp2:" +temp2 + " i:" + i);
+            unswappedList.set(k,temp);
+            System.out.println("temp2:" +temp2 + " k:" + k);
         }
 
         System.out.println(unswappedList);
 
+        }
+
+
     }
-}
+
