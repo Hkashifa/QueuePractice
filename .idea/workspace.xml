@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a82879c-5780-46ac-9845-72acd901dbb5" name="Changes" comment="Practiced problems on LinkedList,Set and Map">
-      <change afterPath="$PROJECT_DIR$/ArrayList/anagramStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/arrayListOperations1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/arrayListOperations2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/commonElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/intersectionOfTwoSortedLinkedList.java" afterDir="false" />
+    <list default="true" id="7a82879c-5780-46ac-9845-72acd901dbb5" name="Changes" comment="Practiced problems on ArrayList">
+      <change afterPath="$PROJECT_DIR$/Map/distinctSubarraySumDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/maxOfAllSubarrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Set/distinctDifference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/UNSintersectionOfTwoSortedLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/UNSswapElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/UNSswapElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/commonElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/commonElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,35 +50,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.commonElements">
-    <configuration name="UNSswapElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.UNSswapElements" />
-      <module name="Java_Collection_Framework_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.distinctSubarraySumDifference">
     <configuration name="anagramStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayList.anagramStrings" />
-      <module name="Java_Collection_Framework_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="arrayListOperations1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayList.arrayListOperations1" />
       <module name="Java_Collection_Framework_2" />
       <extension name="coverage">
         <pattern>
@@ -106,12 +77,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="intersectionOfTwoSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.intersectionOfTwoSortedLinkedList" />
+    <configuration name="distinctDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Set.distinctDifference" />
       <module name="Java_Collection_Framework_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="distinctSubarraySumDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Map.distinctSubarraySumDifference" />
+      <module name="Java_Collection_Framework_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maxOfAllSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queue.maxOfAllSubarrays" />
+      <module name="Java_Collection_Framework_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.distinctSubarraySumDifference" />
+        <item itemvalue="Application.distinctDifference" />
+        <item itemvalue="Application.maxOfAllSubarrays" />
         <item itemvalue="Application.commonElements" />
         <item itemvalue="Application.anagramStrings" />
-        <item itemvalue="Application.arrayListOperations1" />
-        <item itemvalue="Application.UNSswapElements" />
-        <item itemvalue="Application.UNSintersectionOfTwoSortedLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +141,9 @@
       <workItem from="1688797383819" duration="16239000" />
       <workItem from="1688835217232" duration="590000" />
       <workItem from="1688871731417" duration="19790000" />
-      <workItem from="1688958242885" duration="11867000" />
+      <workItem from="1688958242885" duration="12715000" />
+      <workItem from="1689006042951" duration="486000" />
+      <workItem from="1689044640434" duration="9550000" />
     </task>
     <task id="LOCAL-00001" summary="Practiced 5 problems on Queue">
       <created>1688742813713</created>
@@ -167,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688905061242</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Practiced problems on ArrayList">
+      <created>1688981802386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688981802386</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +183,8 @@
     <MESSAGE value="Practiced 5 problems on Queue" />
     <MESSAGE value="Practiced problems on Sets and Map" />
     <MESSAGE value="Practiced problems on LinkedList,Set and Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practiced problems on LinkedList,Set and Map" />
+    <MESSAGE value="Practiced problems on ArrayList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practiced problems on ArrayList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

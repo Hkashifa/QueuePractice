@@ -35,9 +35,11 @@ public class commonElements {
             {
                 for(int j=0;j< v2.size();j++)
                 {
+                    System.out.println("we be comparing "+"v1: "+v1.get(i)+" v2 "+v2.get(j));
                     if(v1.get(i) == v2.get(j))
                     {
                         v3.add(v2.get(j));
+                        System.out.println("we gots a pair");
                     }
                 }
             }
